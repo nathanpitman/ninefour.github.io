@@ -1,0 +1,180 @@
+html, body                      { margin: 0; padding: 0; }
+body                            { background: #fff url(/holding/page_bg.png) repeat-x 0 0; color: #333; font: 62.5% Corbel, "Helvetica Neue", Helvetica, Arial, sans-serif; text-align: center; text-rendering: optimizeLegibility; text-shadow: 0 1px 0 rgba(255,255,255,0.8); }
+#container                      { text-align: left; margin: 0 auto; padding: 0; width: 960px; }
+
+a, a:link                       { color: rgb(16,114,152); text-decoration: none; }
+a:hover, a:focus                { color: rgb(0,0,0); }
+h1, h2, h3, h4, h5, h6          { font-weight: normal; }
+p, li                           { font-size: 1.6em; line-height: 1.5em; margin: 1em 0; padding: 0; }
+p img                           { vertical-align: middle; }
+img                             { border: none; outline: none; }
+hr                              { border: none; border-top: 1px solid rgba(0,0,0,0.05); height: 1px; margin: 0; padding: 0; }
+
+#page_header                    { border-bottom: 1px solid rgba(0,0,0,0.05); color: rgba(51,51,51,0.5); margin-top: 40px; overflow: hidden; padding: 1px 0 40px 0; }
+#page_header p                  { font-size: 2.0em }
+#page_header a,
+#page_header a:link             { color: rgba(51,51,51,0.5); }
+#page_header a:hover,
+#page_header a:focus            { color: rgba(51,51,51,1.0); }
+
+#page_logo                      { display: inline; float: left; margin: 0 0 0 50px; padding: 0; width: 400px; }
+#header_contact                 { display: inline; float: left; clear: left; margin: 15px 0 0 50px; padding: 0; width: 440px; }
+p#socialset                     { display: inline; float: right; font-size: 1.4em; text-align: right; margin: 15px 50px 0 0; padding: 0; width: 400px; }
+
+#feature                        { border-top: 10px solid rgba(102,102,102,0.05); clear: both; height: 460px; position: relative; }
+#feature h2                     { color: rgb(16,114,152); font-size: 2.8em; width: 440px; margin: 25px 0 0 50px; padding: 0; }
+
+#feature_images                 { border-bottom: 1px solid rgba(0,0,0,0.25); height: 500px; width: 960px; top: -40px; overflow: hidden; position: absolute; }
+#feature_images img             { border: 1px solid rgba(0,0,0,0.1); position: absolute; box-shadow: 0 0 5px rgba(0,0,0,0.3);
+                                  -moz-box-shadow: 0 0 3px rgba(0,0,0,0.05);
+                                  -webkit-box-shadow: 0 0 3px rgba(0,0,0,0.05);
+                                  -o-box-shadow: 0 0 3px rgba(0,0,0,0.05);
+                                  -ms-box-shadow: 0 0 3px rgba(0,0,0,0.05);
+                                  box-shadow: 0 0 3px rgba(0,0,0,0.05);
+                                  -moz-transition: all .1s ease-in;
+                                  -webkit-transition: all .1s ease-in;
+                                  -o-transition: all .1s ease-in;
+                                  transition: all .1s linear 2s; }
+#feature_images a:hover img     { border: 1px solid rgba(0,0,0,0.25); margin-top: -5px; z-index: 100;
+                                  -moz-box-shadow: 0 0 15px rgba(0,0,0,0.4);
+                                  -webkit-box-shadow: 0 0 15px rgba(0,0,0,0.4);
+                                  -o-box-shadow: 0 0 15px rgba(0,0,0,0.4);
+                                  -ms-box-shadow: 0 0 15px rgba(0,0,0,0.4);
+                                  box-shadow: 0 0 15px rgba(0,0,0,0.4); }
+#th_1                     { left: 30px; top: 190px; }
+#th_3               { left: 490px; top: 15px; }
+#th_4                      { left: 550px; top: 190px; }
+#th_2                     { left: 330px; top: 150px; }
+
+#info h2                        { font-size: 2.8em; margin: 40px 50px 20px 50px; padding: 0; }
+#info p                         { color: rgb(102,102,102); font-size: 2.0em; margin: 20px 50px 40px 50px; padding: 0; }
+#info h2#info_contact           { background: transparent url(/holding/contact_bubble.png) no-repeat 0 50%; color: rgb(16,114,152); margin: 20px 50px 20px 30px; padding: 20px 0 20px 55px; overflow: visible; }
+#info_contact span              { display: inline; float: right; font-size: .714em; }
+
+#people                         { background: transparent url(/holding/contact_bg.png) repeat-x 0 0; height: 300px; position: relative; }
+
+#page_footer                    { border-top: 1px solid rgba(0,0,0,0.05); }
+#page_footer_info               { display: inline; float: left; margin: 40px 0 60px 50px; padding: 0; }
+#page_footer_info p             { color: rgb(204,204,204); font-size: 1.2em; margin: .25em 0; padding: 0; }
+#page_footer_info p a           { color: rgb(204,204,204); }
+#ee_badge                       { display: inline; float: right; text-align: right; margin: 60px 50px 0 0; padding: 0; width: 220px; }
+
+.namecard                       { background: #fff; border: 1px solid rgba(0,0,0,0.2); cursor: pointer; position: absolute; top: 0; left: 0; width: 340px; min-height: 170px; padding-bottom: 30px;
+                                  -moz-box-shadow: 1px 1px 3px rgba(0,0,0,0.25);
+                                  -webkit-box-shadow: 1px 1px 3px rgba(0,0,0,0.25);
+                                  -ms-box-shadow: 1px 1px 3px rgba(0,0,0,0.25);
+                                  box-shadow: 1px 1px 3px rgba(0,0,0,0.25);
+                                  -moz-transition: all .1s ease-in;
+                                  -webkit-transition: all .1s ease-in;
+                                  -o-transition: all .1s ease-in;
+                                  -ms-transition: all .1s ease-in;
+                                  transition: all .1s linear 2s; }
+.namecard .name                 { font-size: 2em; margin: 15px 5px 0 90px; }
+.namecard .title                { color: #999; font-size: 1.4em; margin: 0 5px 15px 90px; }
+.namecard .contact              { font-size: 1.4em; margin: 2px 5px 2px 90px; }
+.namecard .twitter              { background: transparent url(/holding/twitter_sm.png) no-repeat 0 50%; font-size: 1.4em; margin: 0 0 0 60px; padding: 2px 5px 2px 30px; }
+
+#card_nathan                    { background: #fff url(/holding/avatar_nathan.png) no-repeat 20px 20px; top: 0; left: 40px;
+                                  -moz-transform:rotate(-7deg);
+                                  -webkit-transform:rotate(-7deg);
+                                  -o-transform:rotate(-7deg);
+                                  -ms-transform:rotate(-7deg); }
+#card_jo                        { background: #fff url(/holding/avatar_jo.png) no-repeat 20px 20px; top: 100px; left: 290px;
+                                  -moz-transform:rotate(-2deg);
+                                  -webkit-transform:rotate(-2deg);
+                                  -o-transform:rotate(-2deg);
+                                  -ms-transform:rotate(-2deg); }
+#card_paul                      { background: #fff url(/holding/avatar_paul.png) no-repeat 20px 20px; top: 40px; left: 570px;
+                                  -moz-transform:rotate(7deg);
+                                  -webkit-transform:rotate(7deg);
+                                  -o-transform:rotate(7deg);
+                                  -ms-transform:rotate(7deg); }
+#card_anton                     { background: #fff url(/holding/avatar_anton.png) no-repeat 20px 20px; top: 240px; left: 170px;
+                                  -moz-transform:rotate(2deg);
+                                  -webkit-transform:rotate(2deg);
+                                  -o-transform:rotate(2deg);
+                                  -ms-transform:rotate(2deg); }
+#card_nathan:hover, #card_jo:hover, #card_paul:hover, #card_anton:hover
+                                { border: 1px solid rgba(0,0,0,0.5); margin-top: -3px; z-index: 100;
+                                  -moz-box-shadow: 1px 1px 10px rgba(0,0,0,0.25);
+                                  -webkit-box-shadow: 1px 1px 10px rgba(0,0,0,0.25);
+                                  -ms-box-shadow: 1px 1px 10px rgba(0,0,0,0.25);
+                                  box-shadow: 1px 1px 10px rgba(0,0,0,0.25);
+                                  -moz-transform:rotate(0deg);
+                                  -webkit-transform:rotate(0deg);
+                                  -o-transform:rotate(0deg);
+                                  -ms-transform:rotate(0deg);
+                                  -moz-transform:scale(1.1);
+                                  -webkit-transform:scale(1.1);
+                                  -o-transform:scale(1.1);
+                                  -ms-transform:scale(1.1);}
+
+
+.clearfix:after                 { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+
+/* tablet */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    
+}
+
+/* mobile */
+@media only screen and (max-device-width: 480px) {
+    /*
+    section, header, footer     { display: block; }
+    #container                  { background: #fff url(/holding/page_bg.png) repeat-x 0 0; font-weight: 300; width: 320px; overflow: hidden; margin: 0; padding: 0; }
+    #page_header                { display: block; margin: 20px 10px 10px 10px; padding: 1px 0; }
+    #page_logo                  { width: auto; margin: 0; padding: 0; }
+    p#socialset                 { width: auto; margin: 10px 0 0 0; }
+    span.social_text            { display: none; }
+    p#header_contact            { clear: both; display: block; float: none; font-size: 20px; width: auto; text-align: center; margin: 10px 0 0 0; padding: 20px 0 0 0; }
+    #header_contact a           { background: rgba(228,239,192,0.25); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(228,239,192,0.25)), color-stop(100%,rgba(171,189,115,0.25))); border: 1px solid rgba(0,0,0,0.35); color: #666; display: block; margin: 5px 0; padding: 2px; -webkit-border-radius: 18px; border-radius: 18px; text-shadow:0 1px 1px rgba(255,255,255,0.9) }
+    #header_contact span        { border-top: 1px dotted rgba(0,0,0,0.25); display: block; content: " "; height: 1px; text-indent: -999em; overflow: hidden; margin: 10px 15px; padding: 0; }
+    #feature, #feature_images, #feature_images img { position: static; }
+    #feature                    { border: none; display: block; margin: 0 10px 10px 10px; padding: 10px 0; }
+    #feature h2                 { font-size: 2.4em; margin: 0; padding: 0; width: auto; }
+    #feature_images             { border: 1px solid rgba(0,0,0,0.25); display: block; height: 260px; overflow: hidden; margin: 20px 0; width: 300px; -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.25); }
+    #feature_images img         { display: block; margin: 0; padding: 0; }
+    #th_haslams                 { top: 0; left: 0; width: 300px; height: auto; }
+    #th_perch, #th_ihasco , #th_balance { display: none; }
+    #info                       { color: #444; margin: -100px 10px 30px 10px; }
+    #info h2                    { font-size: 1.8em; margin: 30px 0 15px 0; padding: 1px 0; }
+    #info p                     { font-size: 1.6em; margin: 0; padding: 0; }
+    #info h2#info_contact       { background: transparent url(/holding/contact_bubble.png) no-repeat 0 50%; color: rgb(16,114,152); margin: 10px; padding: 20px 0 20px 55px; overflow: visible; }
+    #info_contact span          { display: inline; float: right; font-size: .714em; }  
+    
+    #people, #page_footer       { position: static; margin: 20px 0; padding: 0; clear: both; width: 300px; }
+    
+    .namecard                   { position: static; width: 300px; margin: 10px; }
+    
+    #card_nathan, #card_jo, #card_paul, #card_anton { -webkit-transform:rotate(0deg); }
+    
+    #footer_info, #ee_badge     { float: none; margin: 10px; }
+    #page_footer                { margin-bottom: 30px; }
+    */
+}
+
+section#partners {
+	border-top: 1px solid rgba(0,0,0,0.05);
+	}
+	section#partners h3 {
+		font-size: 2.0em;
+		color: rgba(51, 51, 51, 0.5);
+		margin: 20px 50px 20px 50px;
+		}
+	section#partners ul {
+		list-style: none;
+		margin: 0 0 0 56px;
+		padding: 0;
+		}
+		section#partners ul li {
+			margin: 0 10px 30px 0;
+			float: left;
+			display: inline;
+			}
+		section#partners ul li a {
+			display: block;
+			opacity: 0.75;
+			}
+		section#partners ul li a:hover {
+			opacity: 1;
+			}
