@@ -1,0 +1,145 @@
+/* Global Reset
+----------------------------------------------- */
+
+@import url(/assets/css/reset.css);
+
+/* The Rest...
+----------------------------------------------- */
+
+body {
+	background-color: #FFCC00;
+	margin: 0 auto 0 auto;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #404040;
+	}
+p {
+	line-height: 120%;
+	margin: 0 0 15px 0;
+	}
+a {
+	color: #404040;
+	border-bottom: 1px dotted #D78181;
+	text-decoration: none;
+	}
+	
+#horizon {
+	position: absolute;
+	top: 50%;
+	left: 0px;
+	width: 100%;
+	height: 1px;
+	overflow: visible;
+	visibility: visible;
+	display: block;
+	}
+#page {
+	position: absolute;
+	top: -275px;
+	width: 100%;
+	height: 550px;
+	visibility: visible;
+	background-image: url("/assets/page_background.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	}
+#content {
+	width: 396px;
+	height: 450px;
+	margin: 0 auto 0 auto;
+	padding: 100px 77px 0 77px;
+	}
+	
+div#logo {
+	margin: 0 0 15px 0;
+	width: 250px;
+	height: 90px;
+	background-image: url("/assets/h1_logo.gif");
+	background-repeat: no-repeat;
+	}
+div#logo h1 {
+	display: none;
+	}
+div#meeting {
+	margin: 0 0 10px 0;
+	width: 400px;
+	height: 35px;
+	background-image: url("/assets/h2_next_meeting.gif");
+	background-repeat: no-repeat;
+	}
+div#meeting h2 {
+	display: none;
+	}
+	
+p.dtstart {
+	margin: 0;
+	padding: 0;
+}
+
+div#footer {
+	margin: 15px 0 0 0;
+}
+div#footer a img {
+	display: inline;
+}
+div#footer a {
+	margin-right: 10px;
+	border: none;
+}
+
+div#footer a.last {
+	margin-right: 0;
+}
+
+/* Directory CSS */
+
+body.directory {
+	margin: 20px;
+	padding: 0;
+	background-color: White;
+}
+body.directory div#logo {
+	margin: 0 0 30px 10px;
+	width: 400px;
+	height: 90px;
+	background-image: url("/assets/h1_directory.gif");
+	background-repeat: no-repeat;
+}
+
+body.directory table.data {
+	border-collapse: collapse;
+	width: 100%;
+}
+body.directory table.data tr {
+	border-bottom: 1px solid #F5DFDF;
+}
+body.directory table.data tr.header {
+	border-bottom: 1px solid #AF0304;
+}
+body.directory table.data tr td {
+	padding: 10px;
+	font-size: 12px;
+	vertical-align: top;
+}
+body.directory table.data tr th.skills, body.directory table.data tr td.skills {
+	display: none;
+}
+body.directory table.data tr td.full_name, body.directory table.data tr td.association, body.directory table.data tr td.tel {
+	white-space: nowrap;
+}
+body.directory table.data tr th {
+	padding: 10px;
+	font-size: 12px;
+	text-align: left;
+	white-space: nowrap;
+}
+body.directory table.data tr:hover {
+	background-color: #FFCC00;
+}
+body.directory table.data tr.header:hover {
+	background-color: White;
+}
+body.directory p.note {
+	margin: 30px 0 15px 0;
+}
