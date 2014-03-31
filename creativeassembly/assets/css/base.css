@@ -1,7 +1,7 @@
 /* Global Reset
 ----------------------------------------------- */
 
-@import url(/assets/css/reset.css);
+@import url("assets/css/reset.css");
 
 /* The Rest...
 ----------------------------------------------- */
@@ -40,7 +40,7 @@ a {
 	width: 100%;
 	height: 550px;
 	visibility: visible;
-	background-image: url("/assets/page_background.png");
+	background-image: url("assets/page_background.png");
 	background-position: center;
 	background-repeat: no-repeat;
 	}
@@ -55,7 +55,7 @@ div#logo {
 	margin: 0 0 15px 0;
 	width: 250px;
 	height: 90px;
-	background-image: url("/assets/h1_logo.gif");
+	background-image: url("assets/h1_logo.gif");
 	background-repeat: no-repeat;
 	}
 div#logo h1 {
@@ -65,7 +65,7 @@ div#meeting {
 	margin: 0 0 10px 0;
 	width: 400px;
 	height: 35px;
-	background-image: url("/assets/h2_next_meeting.gif");
+	background-image: url("assets/h2_next_meeting.gif");
 	background-repeat: no-repeat;
 	}
 div#meeting h2 {
@@ -103,7 +103,7 @@ body.directory div#logo {
 	margin: 0 0 30px 10px;
 	width: 400px;
 	height: 90px;
-	background-image: url("/assets/h1_directory.gif");
+	background-image: url("assets/h1_directory.gif");
 	background-repeat: no-repeat;
 }
 
