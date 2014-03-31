@@ -65,7 +65,7 @@ div#meeting {
 	margin: 0 0 10px 0;
 	width: 400px;
 	height: 35px;
-	background-image: url("../h2_next_meeting.gif");
+	background-image: url("../h2_text.gif");
 	background-repeat: no-repeat;
 	}
 div#meeting h2 {
