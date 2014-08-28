@@ -34,7 +34,7 @@ p#socialset                     { display: inline; float: right; font-size: 1.4e
                                   -moz-transition: all .1s ease-in;
                                   -webkit-transition: all .1s ease-in;
                                   -o-transition: all .1s ease-in;
-                                  transition: all .1s linear 2s; }
+                                  transition: all .1s linear 1s; }
 #feature_images a:hover img     { border: 1px solid rgba(0,0,0,0.25); margin-top: -5px; z-index: 100;
                                   -moz-box-shadow: 0 0 15px rgba(0,0,0,0.4);
                                   -webkit-box-shadow: 0 0 15px rgba(0,0,0,0.4);
@@ -89,11 +89,6 @@ p#socialset                     { display: inline; float: right; font-size: 1.4e
                                   -webkit-transform:rotate(7deg);
                                   -o-transform:rotate(7deg);
                                   -ms-transform:rotate(7deg); }
-#card_anton                     { background: #fff url(/holding/avatar_anton.png) no-repeat 20px 20px; top: 240px; left: 170px;
-                                  -moz-transform:rotate(2deg);
-                                  -webkit-transform:rotate(2deg);
-                                  -o-transform:rotate(2deg);
-                                  -ms-transform:rotate(2deg); }
 #card_nathan:hover, #card_jo:hover, #card_paul:hover, #card_anton:hover
                                 { border: 1px solid rgba(0,0,0,0.5); margin-top: -3px; z-index: 100;
                                   -moz-box-shadow: 1px 1px 10px rgba(0,0,0,0.25);
@@ -114,7 +109,7 @@ p#socialset                     { display: inline; float: right; font-size: 1.4e
 
 /* tablet */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-    
+
 }
 
 /* mobile */
@@ -140,14 +135,14 @@ p#socialset                     { display: inline; float: right; font-size: 1.4e
     #info h2                    { font-size: 1.8em; margin: 30px 0 15px 0; padding: 1px 0; }
     #info p                     { font-size: 1.6em; margin: 0; padding: 0; }
     #info h2#info_contact       { background: transparent url(/holding/contact_bubble.png) no-repeat 0 50%; color: rgb(16,114,152); margin: 10px; padding: 20px 0 20px 55px; overflow: visible; }
-    #info_contact span          { display: inline; float: right; font-size: .714em; }  
-    
+    #info_contact span          { display: inline; float: right; font-size: .714em; }
+
     #people, #page_footer       { position: static; margin: 20px 0; padding: 0; clear: both; width: 300px; }
-    
+
     .namecard                   { position: static; width: 300px; margin: 10px; }
-    
+
     #card_nathan, #card_jo, #card_paul, #card_anton { -webkit-transform:rotate(0deg); }
-    
+
     #footer_info, #ee_badge     { float: none; margin: 10px; }
     #page_footer                { margin-bottom: 30px; }
     */
