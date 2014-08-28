@@ -1,5 +1,5 @@
 html, body                      { margin: 0; padding: 0; }
-body                            { background: #fff url(/holding/page_bg.png) repeat-x 0 0; color: #333; font: 62.5% Corbel, "Helvetica Neue", Helvetica, Arial, sans-serif; text-align: center; text-rendering: optimizeLegibility; text-shadow: 0 1px 0 rgba(255,255,255,0.8); }
+body                            { background: #fff url(../holding/page_bg.png) repeat-x 0 0; color: #333; font: 62.5% Corbel, "Helvetica Neue", Helvetica, Arial, sans-serif; text-align: center; text-rendering: optimizeLegibility; text-shadow: 0 1px 0 rgba(255,255,255,0.8); }
 #container                      { text-align: left; margin: 0 auto; padding: 0; width: 960px; }
 
 a, a:link                       { color: rgb(16,114,152); text-decoration: none; }
@@ -34,7 +34,7 @@ p#socialset                     { display: inline; float: right; font-size: 1.4e
                                   -moz-transition: all .1s ease-in;
                                   -webkit-transition: all .1s ease-in;
                                   -o-transition: all .1s ease-in;
-                                  transition: all .1s linear 1s; }
+                                  transition: all .1s linear 0.1s; }
 #feature_images a:hover img     { border: 1px solid rgba(0,0,0,0.25); margin-top: -5px; z-index: 100;
                                   -moz-box-shadow: 0 0 15px rgba(0,0,0,0.4);
                                   -webkit-box-shadow: 0 0 15px rgba(0,0,0,0.4);
@@ -48,10 +48,10 @@ p#socialset                     { display: inline; float: right; font-size: 1.4e
 
 #info h2                        { font-size: 2.8em; margin: 40px 50px 20px 50px; padding: 0; }
 #info p                         { color: rgb(102,102,102); font-size: 2.0em; margin: 20px 50px 40px 50px; padding: 0; }
-#info h2#info_contact           { background: transparent url(/holding/contact_bubble.png) no-repeat 0 50%; color: rgb(16,114,152); margin: 20px 50px 20px 30px; padding: 20px 0 20px 55px; overflow: visible; }
+#info h2#info_contact           { background: transparent url(../holding/contact_bubble.png) no-repeat 0 50%; color: rgb(16,114,152); margin: 20px 50px 20px 30px; padding: 20px 0 20px 55px; overflow: visible; }
 #info_contact span              { display: inline; float: right; font-size: .714em; }
 
-#people                         { background: transparent url(/holding/contact_bg.png) repeat-x 0 0; height: 300px; position: relative; }
+#people                         { background: transparent url(../holding/contact_bg.png) repeat-x 0 0; height: 300px; position: relative; }
 
 #page_footer                    { border-top: 1px solid rgba(0,0,0,0.05); }
 #page_footer_info               { display: inline; float: left; margin: 40px 0 60px 50px; padding: 0; }
@@ -68,23 +68,23 @@ p#socialset                     { display: inline; float: right; font-size: 1.4e
                                   -webkit-transition: all .1s ease-in;
                                   -o-transition: all .1s ease-in;
                                   -ms-transition: all .1s ease-in;
-                                  transition: all .1s linear 2s; }
+                                  transition: all .1s linear .5s; }
 .namecard .name                 { font-size: 2em; margin: 15px 5px 0 90px; }
 .namecard .title                { color: #999; font-size: 1.4em; margin: 0 5px 15px 90px; }
 .namecard .contact              { font-size: 1.4em; margin: 2px 5px 2px 90px; }
-.namecard .twitter              { background: transparent url(/holding/twitter_sm.png) no-repeat 0 50%; font-size: 1.4em; margin: 0 0 0 60px; padding: 2px 5px 2px 30px; }
+.namecard .twitter              { background: transparent url(../holding/twitter_sm.png) no-repeat 0 50%; font-size: 1.4em; margin: 0 0 0 60px; padding: 2px 5px 2px 30px; }
 
-#card_nathan                    { background: #fff url(/holding/avatar_nathan.png) no-repeat 20px 20px; top: 0; left: 40px;
+#card_nathan                    { background: #fff url(../holding/avatar_nathan.png) no-repeat 20px 20px; top: 0; left: 40px;
                                   -moz-transform:rotate(-7deg);
                                   -webkit-transform:rotate(-7deg);
                                   -o-transform:rotate(-7deg);
                                   -ms-transform:rotate(-7deg); }
-#card_jo                        { background: #fff url(/holding/avatar_jo.png) no-repeat 20px 20px; top: 100px; left: 290px;
+#card_jo                        { background: #fff url(../holding/avatar_jo.png) no-repeat 20px 20px; top: 100px; left: 290px;
                                   -moz-transform:rotate(-2deg);
                                   -webkit-transform:rotate(-2deg);
                                   -o-transform:rotate(-2deg);
                                   -ms-transform:rotate(-2deg); }
-#card_paul                      { background: #fff url(/holding/avatar_paul.png) no-repeat 20px 20px; top: 40px; left: 570px;
+#card_paul                      { background: #fff url(../holding/avatar_paul.png) no-repeat 20px 20px; top: 40px; left: 570px;
                                   -moz-transform:rotate(7deg);
                                   -webkit-transform:rotate(7deg);
                                   -o-transform:rotate(7deg);
