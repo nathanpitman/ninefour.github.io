@@ -74,7 +74,7 @@ p#socialset                     { display: inline; float: right; font-size: 1.4e
 .namecard .contact              { font-size: 1.4em; margin: 2px 5px 2px 90px; }
 .namecard .twitter              { background: transparent url(../holding/twitter_sm.png) no-repeat 0 50%; font-size: 1.4em; margin: 0 0 0 60px; padding: 2px 5px 2px 30px; }
 
-#card_nathan                    { background: #fff url(../holding/avatar_nathan.png) no-repeat 20px 20px; top: 0; left: 40px;
+#card_paul                      { background: #fff url(../holding/avatar_nathan.png) no-repeat 20px 20px; top: 0; left: 40px;
                                   -moz-transform:rotate(-7deg);
                                   -webkit-transform:rotate(-7deg);
                                   -o-transform:rotate(-7deg);
@@ -84,7 +84,7 @@ p#socialset                     { display: inline; float: right; font-size: 1.4e
                                   -webkit-transform:rotate(-2deg);
                                   -o-transform:rotate(-2deg);
                                   -ms-transform:rotate(-2deg); }
-#card_paul                      { background: #fff url(../holding/avatar_paul_2015.png) no-repeat 20px 20px; top: 40px; left: 570px;
+#card_nathan                    { background: #fff url(../holding/avatar_paul_2015.png) no-repeat 20px 20px; top: 40px; left: 570px;
                                   -moz-transform:rotate(7deg);
                                   -webkit-transform:rotate(7deg);
                                   -o-transform:rotate(7deg);
